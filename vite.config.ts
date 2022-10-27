@@ -1,11 +1,5 @@
 import { defineConfig } from 'vite';
 
-declare module 'vite' {
-  interface UserConfig {
-    ssr?: SSROptions;
-  }
-}
-
 export default defineConfig((config) => {
   return {
     build: {
